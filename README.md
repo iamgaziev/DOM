@@ -38,17 +38,23 @@
 >
 >Метод JavaScript document.createElement() позволяет создавать и возвращать новый элемент (пустой узел элемента) с указанным именем тега.
 
+![](/images/createElement.jpg)
+
 >QuerySelector()
 
 >The Document method querySelector() returns the first Element within the document that matches the specified selector, or group of selectors. If no matches are found, null is returned.
 >
 >Метод querySelector() документа возвращает первый элемент в документе, который соответствует указанному селектору или группе селекторов. Если совпадений не найдено, возвращается ноль.
 
+![](/images/querySelector.jpg)
+
 >AppendChild()
 
+>The appendChild() method of the Node interface adds a node to the end of the list of children of a specified parent node. If the given child is a reference to an existing node in the document, appendChild() moves it from its current position to the new position.
 >
->
->
+>Метод appendChild() интерфейса Node добавляет узел в конец списка дочерних элементов указанного родительского узла. Если данный потомок является ссылкой на существующий узел в документе, appendChild() перемещает его из его текущей позиции в новую позицию.
+
+![](/images/classlist.jpg)
 
 
 >Classlist()
@@ -59,3 +65,5 @@
 > 2) Remove(удалять) - Удаляет указанные классы из элемента
 >
 > 3) Toggle(переключать) - Если у элемента нет класса, он добавляет его, иначе удаляет. Когда в качестве второго параметра передается false, он удаляет указанный класс, а если true, добавляет его.
+
+![](/images/classlist.jpg)
